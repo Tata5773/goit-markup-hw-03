@@ -218,7 +218,7 @@ img {
 }
 
 .about {
-  padding-bottom: 120px 0;
+  padding-bottom: 120px;
 }
 
 
@@ -239,7 +239,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color:var(--header-list-item);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .teams {
@@ -266,6 +266,7 @@ img {
 
 .teams-item {
   width: calc((100%-72px)/4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .work {
@@ -344,12 +345,12 @@ img {
 .section-li {
   text-decoration: none;
   margin-bottom: 80px;
-  width: calc((100%-48px)/3);
+  
 }
 
 .portfolio-item-link {
   text-decoration: none;
-  
+  width: calc((100%-48px)/3);
 }
 
 .work-portfolio {
@@ -367,7 +368,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--header-list-item);
- 
+ margin-bottom: 8px;
 }
 
 .portfolio-content {
