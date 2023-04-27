@@ -193,8 +193,14 @@ img {
   display: flex;
 }
 
-.hero-second-title {
+.hero-li {
+  text-decoration: none;
+  margin-bottom: 80px;
   width: calc((100%-72px)/4);
+}
+
+.hero-second-title {
+  
   font-style: normal;
   font-size: 20px;
   font-weight: 500;
@@ -344,13 +350,11 @@ img {
 
 .section-li {
   text-decoration: none;
-  margin-bottom: 80px;
-  
+  width: calc((100%-48px)/3);
 }
 
 .portfolio-item-link {
   text-decoration: none;
-  width: calc((100%-48px)/3);
 }
 
 .work-portfolio {
@@ -368,7 +372,6 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--header-list-item);
- margin-bottom: 8px;
 }
 
 .portfolio-content {
