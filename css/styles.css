@@ -34,6 +34,11 @@ img {
 
 .header {
   border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 1px 6px 0px #2E2F4214;
+
+  box-shadow: 0px 1px 1px 0px #2E2F4229;
+  
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
   
 }
 
@@ -132,9 +137,16 @@ img {
 
 
 .hero {
+  max-width: 1440px;
   background-color: #2e2f42;
   text-align: center;
   padding: 188px 0 188px 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -171,6 +183,7 @@ img {
   background-color: #4D5AE5;
   margin: auto;
   margin-top: 48px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 
 }
 
@@ -272,11 +285,21 @@ img {
   list-style: none;
   display: flex;
   gap: 24px;
+  
 }
 
 .teams-item {
   width: calc((100%-72px)/4);
   border-radius: 0px 0px 4px 4px;
+ background-color: #ffffff;
+
+ box-shadow: 0px 2px 1px 0px #2E2F4214;
+
+ box-shadow: 0px 1px 1px 0px #2E2F4229;
+ 
+ box-shadow: 0px 1px 6px 0px #2E2F4214;
+ 
+ 
 }
 
 .work {
@@ -340,6 +363,12 @@ img {
   background-color: #404BBF;
  color: var(--hero-top-title);
  border: 1px solid transparent;
+ box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 2px 1px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
+
 }
 
 
@@ -353,7 +382,16 @@ img {
 
 .section-li {
   text-decoration: none;
-  
+}
+
+.section-li:hover,
+.section-li:focus {
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
+
+box-shadow: 0px 1px 1px 0px #2E2F4229;
+
+box-shadow: 0px 1px 6px 0px #2E2F4214;
+
 }
 
 .portfolio-item-link {
